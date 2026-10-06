@@ -34,10 +34,6 @@ graphs), [sourcify-go](https://github.com/unpackdev/sourcify-go),
 [hypersync-client-go](https://github.com/enviodev/hypersync-client-go) and
 [goesl](https://github.com/0x19/goesl) (a FreeSWITCH Event Socket library for Go).
 
-#### Tools
-
-Rust · Go · TypeScript · Python · C# · Java · Solidity · ClickHouse
-
 #### Elsewhere
 
 [inorbit.hr](https://inorbit.hr) ·
