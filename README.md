@@ -7,7 +7,7 @@
 
 ### Nevio Vesić
 
-Staff software and protocol engineer in Rijeka and Zagreb, Croatia. I build distributed
+Staff/Senior Software Engineer in Rijeka and Zagreb, Croatia. I build distributed
 systems, networks and the infrastructure under them, mostly in Rust and Go. Before this:
 telecom (TelAPI, Avaya), anycast networks at Subspace, blockchain protocols at Eiger, and
 two years at Tenderly on the RPC layer in front of about 110 networks.
