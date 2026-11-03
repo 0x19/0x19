@@ -37,7 +37,7 @@ graphs), [sourcify-go](https://github.com/unpackdev/sourcify-go),
 #### Elsewhere
 
 [inorbit.hr](https://inorbit.hr) ·
-[About and CV](https://inorbit.hr/about/) ·
+[About](https://inorbit.hr/about/) ·
 [Developers](https://developers.inorbit.hr/) ·
 [@inorbithr](https://github.com/inorbithr) ·
 [LinkedIn](https://www.linkedin.com/in/neviovesic/) ·
