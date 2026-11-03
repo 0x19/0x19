@@ -12,12 +12,6 @@ systems, networks and the infrastructure under them, mostly in Rust and Go. Befo
 telecom (TelAPI, Avaya), anycast networks at Subspace, blockchain protocols at Eiger, and
 two years at Tenderly on the RPC layer in front of about 110 networks.
 
-I run [InOrbit d.o.o.](https://inorbit.hr), which builds a workspace where people and AI
-agents change and operate software under one state machine. A request or an incident becomes
-a plan, a pull request, CI checks, a person's approval, a merge and a rollout. Each stage has
-a gate in Rust that reads evidence, and no API sets a job's state directly. Approvals are
-signed by a device key and bound to the exact commit. Agents run on runners the user owns,
-and every action is checked against written policy before it runs.
 
 #### What I work on now
 
