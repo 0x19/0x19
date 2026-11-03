@@ -12,20 +12,26 @@ systems, networks and the infrastructure under them, mostly in Rust and Go. Befo
 telecom (TelAPI, Avaya), anycast networks at Subspace, blockchain protocols at Eiger, and
 two years at Tenderly on the RPC layer in front of about 110 networks.
 
-I run [InOrbit d.o.o.](https://inorbit.hr) InOrbit builds AI engineering that has to prove
-its work: every change ends in evidence someone else can check without trusting the model
-that made it.
+I run [InOrbit d.o.o.](https://inorbit.hr), which builds a workspace where people and AI
+agents change and operate software under one state machine. A request or an incident becomes
+a plan, a pull request, CI checks, a person's approval, a merge and a rollout. Each stage has
+a gate in Rust that reads evidence, and no API sets a job's state directly. Approvals are
+signed by a device key and bound to the exact commit. Agents run on runners the user owns,
+and every action is checked against written policy before it runs.
 
 #### What I work on now
 
-- **The InOrbit platform.** Early access. What runs is on [inorbit.hr](https://inorbit.hr),
-  and what doesn't is labelled as such, with a dated RFC behind each step.
-- **[inorbithr/sdk](https://github.com/inorbithr/sdk).** Client libraries for the InOrbit API
-  in Rust, TypeScript, Go, Python, C# and Java, all run against one conformance suite.
-- **`iohr`, the command line.** Sign-in, API tokens, profiles, SDK generation cut to what your
-  credential may call. Pre-release: `brew install inorbithr/tap/iohr`.
+- **The InOrbit platform.** Pre-release, with partners. What runs is on
+  [inorbit.hr](https://inorbit.hr), what does not is marked in development, and each step
+  has a dated RFC in Decisions.
+- **[inorbithr/sdk](https://github.com/inorbithr/sdk).** Client libraries for the InOrbit API:
+  Rust, TypeScript, Python and Go on their registries, C# and Java from source, all run
+  against one conformance suite.
+- **`iohr`, the command line.** Sign-in, API tokens, profiles, and SDK generation limited to
+  the calls a credential is allowed to make. Pre-release: `brew install inorbithr/tap/iohr`.
 - **[inorbithr/dataplane](https://github.com/inorbithr/dataplane).** The agent that runs checks
-  inside your own network and only dials out. Pre-release.
+  inside a customer's network over one outbound WebSocket to `api.inorbit.hr`, with no inbound
+  ports. Pre-release.
 
 #### Earlier open source
 
@@ -38,8 +44,7 @@ graphs), [sourcify-go](https://github.com/unpackdev/sourcify-go),
 
 [inorbit.hr](https://inorbit.hr) ·
 [About and CV](https://inorbit.hr/about/) ·
-[Docs](https://docs.inorbit.hr) ·
-[Radar](https://inorbit.hr/radar/) ·
+[Developers](https://developers.inorbit.hr/) ·
 [@inorbithr](https://github.com/inorbithr) ·
 [LinkedIn](https://www.linkedin.com/in/neviovesic/) ·
 [X](https://x.com/vesicnevio) ·
